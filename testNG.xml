@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Suite">
+
+<test name="Home Test">
+    <classes> 
+         <class name="home_Tests.Home_Tests" ></class>  
+    </classes>
+</test>
+	
+<test name="Search Test">
+    <classes> 
+         <class name="searchProduct_Tests.Search_Tests" ></class> 
+    </classes>
+</test>
+
+</suite>

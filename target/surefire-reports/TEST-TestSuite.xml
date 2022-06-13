@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="24.175" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Amazon_Intern\src\test\resources\chromedriver_102.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Amazon_Intern\target\test-classes;C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Amazon_Intern\target\classes;C:\Users\uniqu\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\uniqu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\uniqu\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\uniqu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\uniqu\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\uniqu\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\uniqu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\uniqu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\uniqu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\uniqu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\uniqu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\uniqu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\uniqu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\uniqu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\uniqu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\uniqu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi\3.13\poi-3.13.jar;C:\Users\uniqu\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\uniqu\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi-ooxml\3.13\poi-ooxml-3.13.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.13\poi-ooxml-schemas-3.13.jar;C:\Users\uniqu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\uniqu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\uniqu\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\uniqu\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\uniqu\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\uniqu\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\uniqu\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\uniqu\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="C:\Users\uniqu\AppData\Local\Temp\surefire13397364193957482394\surefirebooter16225534192624208347.jar C:\Users\uniqu\AppData\Local\Temp\surefire13397364193957482394 2022-06-12T08-38-19_142-jvmRun1 surefire11256165357906782064tmp surefire_06575742049417231852tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Amazon_Intern\target\test-classes;C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Amazon_Intern\target\classes;C:\Users\uniqu\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\uniqu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\uniqu\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\uniqu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\uniqu\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\uniqu\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\uniqu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\uniqu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\uniqu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\uniqu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\uniqu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\uniqu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\uniqu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\uniqu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\uniqu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\uniqu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\uniqu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi\3.13\poi-3.13.jar;C:\Users\uniqu\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\uniqu\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi-ooxml\3.13\poi-ooxml-3.13.jar;C:\Users\uniqu\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.13\poi-ooxml-schemas-3.13.jar;C:\Users\uniqu\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\uniqu\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\uniqu\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\uniqu\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\uniqu\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\uniqu\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\uniqu\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\uniqu\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\uniqu\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\uniqu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Amazon_Intern"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\uniqu\AppData\Local\Temp\surefire13397364193957482394\surefirebooter16225534192624208347.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="uniqu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\uniqu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\uniqu\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\MyData\Java_Selenium_Codes\MyWorkspaces\Workspace\Learning_WS\Amazon_Intern"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk-11.0.13\/bin;C:\Program Files\Java\jdk-11.0.13\/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.13\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.5\bin;C:\Users\uniqu\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\uniqu\AppData\Local\Programs\Python\Python310\;C:\Users\uniqu\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="verifyHeaders" classname="home_Tests.Home_Tests" time="0.378">
+    <system-out><![CDATA[Executing Before Method
+Amazon logo displayed
+Location displayed
+Search Dropdown displayed
+Search Box displayed
+Search Key displayed
+Language selection displayed
+SignIn selection displayed
+Returns& Orders displayed
+Cart displayed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 13704
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 12, 2022 8:38:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCategories_AmazonHome" classname="home_Tests.Home_Tests" time="2.978">
+    <system-out><![CDATA[Executing Before Method
+Amazon logo displayed
+ALL slider icon displayed
+All elements are displayed under Category section
+Best Sellers
+Mobiles
+Customer Service
+Today's Deals
+Fashion
+ Electronics 
+<span>Prime</span><span class="nav-icon nav-arrow" style="visibility: visible;"></span>
+Home &amp; Kitchen
+Amazon Pay
+New Releases
+Computers
+Books
+Coupons
+Toys &amp; Games
+Sell
+Car &amp; Motorbike
+Beauty &amp; Personal Care
+Grocery &amp; Gourmet Foods
+Gift Cards
+Sports, Fitness &amp; Outdoors
+Baby
+Video Games
+Health, Household &amp; Personal Care
+Pet Supplies
+Home Improvement
+Gift Ideas	
+Kindle eBooks
+Audible
+AmazonBasics
+Subscribe &amp; Save
+Amazon Ad image displayed
+]]></system-out>
+  </testcase>
+  <testcase name="VerifySignInPage" classname="home_Tests.Home_Tests" time="2.578">
+    <system-out><![CDATA[Executing Before Method
+Amazon logo displayed
+ALL slider icon displayed
+All elements are displayed under Category section
+Best Sellers
+Mobiles
+Customer Service
+Today's Deals
+Fashion
+ Electronics 
+<span>Prime</span><span class="nav-icon nav-arrow" style="visibility: visible;"></span>
+Home &amp; Kitchen
+Amazon Pay
+New Releases
+Computers
+Books
+Coupons
+Toys &amp; Games
+Sell
+Car &amp; Motorbike
+Beauty &amp; Personal Care
+Grocery &amp; Gourmet Foods
+Gift Cards
+Sports, Fitness &amp; Outdoors
+Baby
+Video Games
+Health, Household &amp; Personal Care
+Pet Supplies
+Home Improvement
+Gift Ideas	
+Kindle eBooks
+Audible
+AmazonBasics
+Subscribe &amp; Save
+Amazon Ad image displayed
+]]></system-out>
+  </testcase>
+  <testcase name="searchProduct_SearchTextbox" classname="searchProduct_Tests.Search_Tests" time="7.415">
+    <system-out><![CDATA[Executing Before Method
+Amazon logo displayed
+ALL slider icon displayed
+wwe 2k22
+wwe 2k22 in Video Games
+wwe 2k22 ps4
+wwe 2k22 ps5
+wwe 2k22 pc
+wwe 2k22 ps4 deluxe edition
+wwe 2k22 xbox one
+wwe 2k22 deluxe edition
+wwe 2k22 xbox
+wwe 2k22 ps5 game
+wwe 2k22 xbox series x
+Product displayed for Search result
+WWE 2K22 (PS4)
+2,690
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+</testsuite>

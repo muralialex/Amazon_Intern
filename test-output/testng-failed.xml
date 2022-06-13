@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Home Test(failed)">
+    <classes>
+      <class name="home_Tests.Home_Tests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="EndTest"/>
+          <include name="startTest"/>
+          <include name="endReport"/>
+          <include name="verifyCategories_AmazonHome"/>
+        </methods>
+      </class> <!-- home_Tests.Home_Tests -->
+    </classes>
+  </test> <!-- Home Test(failed) -->
+</suite> <!-- Failed suite [Amazon Suite] -->
